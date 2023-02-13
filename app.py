@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 openai.organization = "org-0MLEyOLltuxIvGpSl7Op2CH8"
-openai.api_key = "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"
+openai.api_key = "your api key"
 
 
 @app.route("/questions", methods=["POST", "GET"])
